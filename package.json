@@ -1,0 +1,26 @@
+{
+  "name": "contest-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "inferno": "^3.9.0",
+    "inferno-component": "^3.9.0",
+    "inferno-router": "^3.9.0",
+    "inferno-scripts": "4.2.0",
+    "linkstate": "^1.1.0",
+    "milligram": "^1.3.0",
+    "remarkable": "^1.7.1"
+  },
+  "proxy": "http://localhost:3000",
+  "scripts": {
+    "start": "PORT=3001 inferno-scripts start",
+    "build": "inferno-scripts build",
+    "test": "inferno-scripts test --env=jsdom",
+    "lint": "eslint src",
+    "eject": "inferno-scripts eject"
+  },
+  "devDependencies": {
+    "eslint": "^4.7.1",
+    "eslint-config-inferno-app": "^4.2.0"
+  }
+}
